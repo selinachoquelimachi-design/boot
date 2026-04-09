@@ -1,0 +1,46 @@
+.contenedor{
+    background-color: rgb(238, 93, 93);
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas: "tit tit tit"
+                         "menu menu menu"
+                         "car1 car2 carr"
+                         "pie pie pie";
+}
+.tit{
+    background-color: rgb(88, 241, 190);
+    grid-area: tit;
+    padding: 10px;
+}
+.menu{
+    background-color: aliceblue;
+    grid-area: menu;
+}
+.car1{
+    background-color: aliceblue;
+    grid-area: car1;
+}
+.car2{
+    background-color: aliceblue;
+    grid-area: car2;
+}
+.carr{
+    background-color: aliceblue;
+    grid-area: carr;
+}
+.pie{
+    background-color: rgb(88, 241, 190);
+    grid-area: pie;
+}
+.h5{
+    color: blue;
+}
+.firma {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+  margin-top: 20px;
+}

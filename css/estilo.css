@@ -1,0 +1,57 @@
+.contenedor{
+    background-color: #ff4d4d; /* rojo brillante */
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas: "tit tit tit"
+                         "menu menu menu"
+                         "car1 car2 carr"
+                         "pie pie pie";
+}
+
+.tit{
+    background-color: #00c3ff; /* celeste fuerte */
+    color: white;
+    grid-area: tit;
+    padding: 10px;
+}
+
+.menu{
+    background-color: #ffffff;
+    grid-area: menu;
+}
+
+.car1{
+    background-color: #ffd60a; /* amarillo brillante */
+    grid-area: car1;
+}
+
+.car2{
+    background-color: #ff85a2; /* rosado fuerte */
+    grid-area: car2;
+}
+
+.carr{
+    background-color: #9b5de5; /* morado intenso */
+    color: white;
+    grid-area: carr;
+}
+
+.pie{
+    background-color: #00f5d4; /* verde neón */
+    color: black;
+    grid-area: pie;
+}
+
+.h5{
+    color: #ff006e; /* rosa fuerte */
+}
+
+.firma {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-style: italic;
+  margin-top: 20px;
+}
